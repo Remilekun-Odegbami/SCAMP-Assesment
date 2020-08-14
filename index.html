@@ -1,0 +1,56 @@
+
+<!DOCTYPE HTML>
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+<head>
+<title> fibonacci solution</title>
+
+<style type= "text/css">
+
+body {
+	background-color:#8942A8;
+	color: white;
+}
+h1 {
+	text-align: center;
+}
+
+h3 {
+	text-align: justify;
+}
+
+</style>
+</head>
+<h1> Program to generate the Fibonacci Series for  She code Africa </h1>
+
+<h3> Fibonacci is a series of numbers in which each number ( Fibonacci number ) is the sum of the two preceding numbers. The simplest is the series 1, 1, 2, 3, 5, 8, etc.</h3>
+
+<script type="text/javascript">
+
+var limit = prompt("Enter the limit 'n' to generate the fibonacci series:", " ");
+var p1=0;
+var p2=1;
+
+document.write("The limit entered to generate the fibonacci series is: ",limit, "<br/>");
+document.write("The fibonacci series : ");
+document.write("",p1," ");
+document.write("",p2," ");
+ 
+var i,p3;
+for(i=2; i<limit; i++)
+{
+  p3=p1+p2;
+  document.write("",p3," ");
+  p1=p2;
+  p2=p3;
+}
+
+</script>
+</body>
+
+<!-- 
+	Name: Odegbami Remilekun Caroline
+	Email address:remilekunodegbami@gmail.com
+	Phone Number: 08107996742
+-->
+</html>
